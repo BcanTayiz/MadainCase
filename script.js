@@ -4,6 +4,7 @@ const categoryThird = document.getElementById('category-3')
 
 var dataSection = document.getElementById('data-section')
 
+
 let clickCategory = ''
 let infoData = []
 
@@ -36,6 +37,8 @@ const getData = async() => {
 }
 
 getData()
+
+
 
 categoryFirst.onclick = function(){
     dataSection.innerHTML = ''
