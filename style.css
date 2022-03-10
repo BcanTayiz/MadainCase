@@ -1,0 +1,70 @@
+body,
+html {
+  font-family: "Inconsolata", monospace;
+  background-color: azure;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories div {
+  color: blue;
+  font-size: 20;
+  background-color: antiquewhite;
+  height: 4em;
+  width: 8em;
+  border-radius: 10px;
+  margin: 2em;
+  padding: 1em;
+  justify-content: "center";
+  text-align: "center";
+  cursor: pointer;
+}
+
+#data-section {
+  background-color: burlywood;
+  width: 40em;
+  height: "100%";
+}
+
+img {
+  height: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+#data-section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 1em;
+}
+
+.profile-section {
+  background-color: rgb(76, 74, 192);
+  border-radius: 5em;
+  text-align: "center";
+  align-items: "center";
+  padding: 1em;
+  margin: 2em;
+}
+
+.user-info {
+  display: flex;
+}
+
+.info-section {
+  display: flex;
+}
+
+.info-section h4 {
+  width: 80px;
+  height: 80px;
+}
+
+.profile-text {
+  margin-bottom: 10em;
+}
