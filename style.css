@@ -8,6 +8,9 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 5px 5px black;
+  margin-bottom: 3em;
+  background-color: rgb(117, 69, 180);
 }
 
 .categories div {
@@ -24,10 +27,17 @@ html {
   cursor: pointer;
 }
 
+.categories div:hover {
+  background-color: aliceblue;
+  box-shadow: 0 2px 3px 5px black;
+  transition: background-color 2s, box-shadow 2s;
+}
+
 #data-section {
   background-color: burlywood;
-  width: 40em;
+  width: 45em;
   height: "100%";
+  box-shadow: 0px 10px 10px 5px gray;
 }
 
 img {
@@ -46,10 +56,21 @@ img {
 .profile-section {
   background-color: rgb(76, 74, 192);
   border-radius: 5em;
+  width: 12em;
   text-align: "center";
   align-items: "center";
+  justify-content: "center";
   padding: 1em;
   margin: 2em;
+  margin-left: 3em;
+}
+
+.profile-text {
+  position: "relative";
+  bottom: 120;
+  left: 100;
+  margin-bottom: 10px;
+  color: rgb(29, 6, 6);
 }
 
 .user-info {
@@ -58,13 +79,23 @@ img {
 
 .info-section {
   display: flex;
+  margin-top: 50px;
+  padding-top: 40px;
+  height: 30px;
+  background-color: rgb(138, 199, 218);
+  border-radius: 3em;
+  padding-bottom: 5em;
+  color: rebeccapurple;
+  align-items: "center";
+  justify-content: "center";
+  text-align: "center";
 }
 
 .info-section h4 {
-  width: 80px;
-  height: 80px;
-}
-
-.profile-text {
-  margin-bottom: 10em;
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(46, 22, 112);
+  box-shadow: 0px 10px 10px 5px gray;
 }
